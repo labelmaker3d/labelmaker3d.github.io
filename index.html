@@ -33,9 +33,9 @@
       .sem-label {
         margin-top: 2px;
         margin-bottom: -2px;
-        margin-right: 2px;
-        min-width: 15px;
-        min-height: 15px;
+        margin-right: 0px;
+        min-width: 10px;
+        min-height: 10px;
         display: inline-block;
         border: 0px solid black;
         margin-left: 10px;
@@ -182,27 +182,156 @@
 
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Qualitative results</h2>
+        <h2 class="title is-3">Qualitative results on ARKitScenes</h2>
       <i>LabelMaker</i> can automatically create highly accurate 2D and 3D semantic segmentations.
       Below we show 3D semantic segmentation on ARKitScenes reconstructions.
-      <iframe src="https://labelmaker3d.github.io/data/42897688_visualization/index.html" width="100%" height="500" frameborder="1" style="border: 1px solid gray"></iframe>
-
-
-      <span class="sem-label" style="background-color: rgb(174, 199, 232); "></span> Wall
+      <iframe src="https://labelmaker3d.github.io/data/42445991_living_room_visualization/index.html" width="100%" height="500" frameborder="1" style="border: 1px solid gray"></iframe>
+      <div style="font-size: 10px">
+      <span class="sem-label" style="background-color: rgb(38, 96, 167); "></span> Ashcan
+      <span class="sem-label" style="background-color: rgb(143, 245, 111); "></span> Backpack
+      <span class="sem-label" style="background-color: rgb(169, 137, 78); "></span> Bag
+      <span class="sem-label" style="background-color: rgb(134, 76, 14); "></span> Bannister
+      <span class="sem-label" style="background-color: rgb(45, 152, 72); "></span> Basket
+      <span class="sem-label" style="background-color: rgb(227, 119, 194); "></span> Bathtub
+      <span class="sem-label" style="background-color: rgb(148, 241, 12); "></span> Beanbag
+      <span class="sem-label" style="background-color: rgb(17, 242, 171); "></span> Bench
+      <span class="sem-label" style="background-color: rgb(138, 175, 62); "></span> Blanket
+      <span class="sem-label" style="background-color: rgb(192, 229, 91); "></span> Book
+      <span class="sem-label" style="background-color: rgb(229, 91, 104); "></span> Bookshelf
+      <span class="sem-label" style="background-color: rgb(191, 28, 135); "></span> Bottle
+      <span class="sem-label" style="background-color: rgb(177, 82, 239); "></span> Box
+      <span class="sem-label" style="background-color: rgb(61, 81, 208); "></span> Bucket
+      <span class="sem-label" style="background-color: rgb(31, 119, 180); "></span> Cabinet
+      <span class="sem-label" style="background-color: rgb(186, 197, 62); "></span> Ceiling
+      <span class="sem-label" style="background-color: rgb(188, 189, 34); "></span> Chair
+      <span class="sem-label" style="background-color: rgb(16, 212, 139); "></span> Chest of drawers
+      <span class="sem-label" style="background-color: rgb(213, 85, 216); "></span> Clock
+      <span class="sem-label" style="background-color: rgb(39, 19, 208); "></span> Column
+      <span class="sem-label" style="background-color: rgb(219, 219, 141); "></span> Curtain
+      <span class="sem-label" style="background-color: rgb(141, 91, 229); "></span> Cushion
+      <span class="sem-label" style="background-color: rgb(155, 64, 40); "></span> Decoration
+      <span class="sem-label" style="background-color: rgb(229, 91, 223); "></span> Display
       <span class="sem-label" style="background-color: rgb(214, 39, 40); "></span> Door
       <span class="sem-label" style="background-color: rgb(64, 160, 250); "></span> Doorframe
-      <span class="sem-label" style="background-color: rgb(255, 187, 120); "></span> Bed
-      <span class="sem-label" style="background-color: rgb(196, 156, 148); "></span> Picture
-      <span class="sem-label" style="background-color: rgb(141, 91, 229); "></span> Pillow
       <span class="sem-label" style="background-color: rgb(152, 223, 138); "></span> Floor
-      <span class="sem-label" style="background-color: rgb(153, 108, 234); "></span> Object
-      <span class="sem-label" style="background-color: rgb(38, 96, 167); "></span> Trash
+      <span class="sem-label" style="background-color: rgb(118, 174, 76); "></span> Footstool
+      <span class="sem-label" style="background-color: rgb(52, 122, 152); "></span> Furniture
       <span class="sem-label" style="background-color: rgb(237, 204, 37); "></span> Lamp
+      <span class="sem-label" style="background-color: rgb(169, 143, 81); "></span> Laptop
+      <span class="sem-label" style="background-color: rgb(161, 192, 38); "></span> Light
+      <span class="sem-label" style="background-color: rgb(208, 193, 72); "></span> Microwave
+      <span class="sem-label" style="background-color: rgb(240, 130, 89); "></span> Oven
+      <span class="sem-label" style="background-color: rgb(25, 160, 151); "></span> Paper
+      <span class="sem-label" style="background-color: rgb(176, 102, 54); "></span> Paper cutter
+      <span class="sem-label" style="background-color: rgb(196, 156, 148); "></span> Picture
+      <span class="sem-label" style="background-color: rgb(150, 53, 56); "></span> Plant
+      <span class="sem-label" style="background-color: rgb(14, 16, 155); "></span> Printer
+      <span class="sem-label" style="background-color: rgb(18, 163, 194); "></span> Radiator
+      <span class="sem-label" style="background-color: rgb(60, 205, 27); "></span> Sack
+      <span class="sem-label" style="background-color: rgb(208, 49, 84); "></span> Stairway
+      <span class="sem-label" style="background-color: rgb(255, 152, 150); "></span> Table
+      <span class="sem-label" style="background-color: rgb(53, 206, 53); "></span> Teddy
+      <span class="sem-label" style="background-color: rgb(116, 217, 17); "></span> Tray
+      <span class="sem-label" style="background-color: rgb(174, 199, 232); "></span> Wall
+      <span class="sem-label" style="background-color: rgb(197, 176, 213); "></span> Window
+      </div>
 
-      <span class="sem-label" style="background-color: rgb(186, 197, 62); "></span> Carpet
+      <iframe src="https://labelmaker3d.github.io/data/42897688_bedroom_visualization/index.html" width="100%" height="500" frameborder="1" style="border: 1px solid gray"></iframe>
+      <div style="font-size: 10px">
 
-      <span class="sem-label" style="background-color: rgb(186, 197, 62); "></span> Rug
+      <span class="sem-label" style="background-color: rgb(34, 14, 130); "></span> Apparel
+<span class="sem-label" style="background-color: rgb(38, 96, 167); "></span> Ashcan
+<span class="sem-label" style="background-color: rgb(134, 76, 14); "></span> Bannister
+<span class="sem-label" style="background-color: rgb(45, 152, 72); "></span> Basket
+<span class="sem-label" style="background-color: rgb(255, 187, 120); "></span> Bed
+<span class="sem-label" style="background-color: rgb(138, 175, 62); "></span> Blanket
+<span class="sem-label" style="background-color: rgb(192, 229, 91); "></span> Book
+<span class="sem-label" style="background-color: rgb(229, 91, 104); "></span> Bookshelf
+<span class="sem-label" style="background-color: rgb(191, 28, 135); "></span> Bottle
+<span class="sem-label" style="background-color: rgb(158, 119, 28); "></span> Bowl
+<span class="sem-label" style="background-color: rgb(177, 82, 239); "></span> Box
+<span class="sem-label" style="background-color: rgb(31, 119, 180); "></span> Cabinet
+<span class="sem-label" style="background-color: rgb(186, 197, 62); "></span> Ceiling
+<span class="sem-label" style="background-color: rgb(188, 189, 34); "></span> Chair
+<span class="sem-label" style="background-color: rgb(16, 212, 139); "></span> Chest of drawers
+<span class="sem-label" style="background-color: rgb(213, 85, 216); "></span> Clock
+<span class="sem-label" style="background-color: rgb(58, 98, 137); "></span> Coffee table
+<span class="sem-label" style="background-color: rgb(219, 219, 141); "></span> Curtain
+<span class="sem-label" style="background-color: rgb(141, 91, 229); "></span> Cushion
+<span class="sem-label" style="background-color: rgb(247, 182, 210); "></span> Desk
+<span class="sem-label" style="background-color: rgb(229, 91, 223); "></span> Display
+<span class="sem-label" style="background-color: rgb(214, 39, 40); "></span> Door
+<span class="sem-label" style="background-color: rgb(64, 160, 250); "></span> Doorframe
+<span class="sem-label" style="background-color: rgb(152, 223, 138); "></span> Floor
+<span class="sem-label" style="background-color: rgb(250, 236, 52); "></span> Gat
+<span class="sem-label" style="background-color: rgb(237, 204, 37); "></span> Lamp
+<span class="sem-label" style="background-color: rgb(161, 192, 38); "></span> Light
+<span class="sem-label" style="background-color: rgb(184, 58, 125); "></span> Mat
+<span class="sem-label" style="background-color: rgb(162, 62, 60); "></span> Mirror
+<span class="sem-label" style="background-color: rgb(196, 156, 148); "></span> Picture
+<span class="sem-label" style="background-color: rgb(18, 163, 194); "></span> Radiator
+<span class="sem-label" style="background-color: rgb(10, 125, 140); "></span> Shoe
+<span class="sem-label" style="background-color: rgb(42, 143, 20); "></span> Shower stall
+<span class="sem-label" style="background-color: rgb(83, 175, 30); "></span> Soap dispenser
+<span class="sem-label" style="background-color: rgb(137, 63, 14); "></span> Stand
+<span class="sem-label" style="background-color: rgb(90, 119, 201); "></span> Stool
+<span class="sem-label" style="background-color: rgb(91, 229, 110); "></span> Swivel chair
+<span class="sem-label" style="background-color: rgb(255, 152, 150); "></span> Table
+<span class="sem-label" style="background-color: rgb(53, 206, 53); "></span> Teddy
+<span class="sem-label" style="background-color: rgb(18, 199, 153); "></span> Telephone
+<span class="sem-label" style="background-color: rgb(62, 143, 148); "></span> Towel
+<span class="sem-label" style="background-color: rgb(49, 206, 87); "></span> Vent
+<span class="sem-label" style="background-color: rgb(174, 199, 232); "></span> Wall
+<span class="sem-label" style="background-color: rgb(197, 176, 213); "></span> Window
+</div>
 
+      <iframe src="https://labelmaker3d.github.io/data/47333462_bedroom_visualization/index.html" width="100%" height="500" frameborder="1" style="border: 1px solid gray"></iframe>
+      <div style="font-size: 10px">
+
+      <span class="sem-label" style="background-color: rgb(38, 96, 167); "></span> Ashcan
+<span class="sem-label" style="background-color: rgb(143, 245, 111); "></span> Backpack
+<span class="sem-label" style="background-color: rgb(255, 187, 120); "></span> Bed
+<span class="sem-label" style="background-color: rgb(138, 175, 62); "></span> Blanket
+<span class="sem-label" style="background-color: rgb(192, 229, 91); "></span> Book
+<span class="sem-label" style="background-color: rgb(229, 91, 104); "></span> Bookshelf
+<span class="sem-label" style="background-color: rgb(191, 28, 135); "></span> Bottle
+<span class="sem-label" style="background-color: rgb(177, 82, 239); "></span> Box
+<span class="sem-label" style="background-color: rgb(31, 119, 180); "></span> Cabinet
+<span class="sem-label" style="background-color: rgb(186, 197, 62); "></span> Ceiling
+<span class="sem-label" style="background-color: rgb(188, 189, 34); "></span> Chair
+<span class="sem-label" style="background-color: rgb(16, 212, 139); "></span> Chest of drawers
+<span class="sem-label" style="background-color: rgb(213, 85, 216); "></span> Clock
+<span class="sem-label" style="background-color: rgb(76, 38, 202); "></span> Computer
+<span class="sem-label" style="background-color: rgb(154, 59, 103); "></span> Computer keyboard
+<span class="sem-label" style="background-color: rgb(56, 144, 89); "></span> Countertop
+<span class="sem-label" style="background-color: rgb(97, 99, 203); "></span> Crate
+<span class="sem-label" style="background-color: rgb(219, 219, 141); "></span> Curtain
+<span class="sem-label" style="background-color: rgb(141, 91, 229); "></span> Cushion
+<span class="sem-label" style="background-color: rgb(155, 64, 40); "></span> Decoration
+<span class="sem-label" style="background-color: rgb(247, 182, 210); "></span> Desk
+<span class="sem-label" style="background-color: rgb(229, 91, 223); "></span> Display
+<span class="sem-label" style="background-color: rgb(214, 39, 40); "></span> Door
+<span class="sem-label" style="background-color: rgb(64, 160, 250); "></span> Doorframe
+<span class="sem-label" style="background-color: rgb(227, 56, 125); "></span> Fan
+<span class="sem-label" style="background-color: rgb(152, 223, 138); "></span> Floor
+<span class="sem-label" style="background-color: rgb(118, 174, 76); "></span> Footstool
+<span class="sem-label" style="background-color: rgb(197, 63, 51); "></span> Kettle
+<span class="sem-label" style="background-color: rgb(237, 204, 37); "></span> Lamp
+<span class="sem-label" style="background-color: rgb(184, 58, 125); "></span> Mat
+<span class="sem-label" style="background-color: rgb(196, 156, 148); "></span> Picture
+<span class="sem-label" style="background-color: rgb(150, 53, 56); "></span> Plant
+<span class="sem-label" style="background-color: rgb(14, 16, 155); "></span> Printer
+<span class="sem-label" style="background-color: rgb(18, 163, 194); "></span> Radiator
+<span class="sem-label" style="background-color: rgb(91, 229, 110); "></span> Swivel chair
+<span class="sem-label" style="background-color: rgb(255, 152, 150); "></span> Table
+<span class="sem-label" style="background-color: rgb(53, 206, 53); "></span> Teddy
+<span class="sem-label" style="background-color: rgb(18, 199, 153); "></span> Telephone
+<span class="sem-label" style="background-color: rgb(62, 143, 148); "></span> Towel
+<span class="sem-label" style="background-color: rgb(116, 217, 17); "></span> Tray
+<span class="sem-label" style="background-color: rgb(174, 199, 232); "></span> Wall
+<span class="sem-label" style="background-color: rgb(152, 83, 7); "></span> Wardrobe
+<span class="sem-label" style="background-color: rgb(197, 176, 213); "></span> Window
+      </div>
 
         <div class="content has-text-justified">
           <p>
